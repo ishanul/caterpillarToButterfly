@@ -13,7 +13,7 @@ public abstract class Animal {
         this.state = state;
     }
 
-    public void transit(){
-        state.changeToNext(this);
+    public Animal transit(){
+        return state.changeToNext(this);
     }
 }

@@ -5,8 +5,8 @@ import insect.Animal;
 public class ButterflyState extends Metamorphosis {
 
 
-    public void changeToNext(Animal animal){
+    public Animal changeToNext(Animal animal){
         System.out.println("No Change");
-
+        return animal;
     }
 }
